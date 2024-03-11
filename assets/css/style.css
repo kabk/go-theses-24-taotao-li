@@ -38,6 +38,7 @@
   /* Font values */
   --font-family: 'SuisseEcalIntl';
   --font-size: calc(0.625rem + 0.92vw); 
+  
 }
 
 /* GENERAL STYLES */
@@ -216,6 +217,11 @@ summary{
   width: 100%;
 }
 
+#neonsigngrey2{
+  margin-top: 3.1vw;
+  width: 100%;
+  display: none;
+}
 
 
 
@@ -265,15 +271,31 @@ summary{
     display:block;
   }
 
+ 
 }
 
 
 
 /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
 
-@media (max-width: 339px) {
+@media (max-width: 440px) {
 
   /* your overriding css properties here */
+
+ 
+  #neonsigngrey{
+    margin-top: 3.1vw;
+    width: 100%;
+    display: none;
+  }
+  
+  #neonsigngrey2{
+    margin-top: 3.1vw;
+    width: 100%;
+    display: block;
+  }
+
+  
 
 }
 

@@ -248,7 +248,15 @@ summary{
 #neonsigngrey{
   margin-top: 3.1vw;
   width: 100%;
+  display: block;
 }
+
+#neonsigngrey3{
+  margin-top: 3.1vw;
+  width: 100%;
+  display: none;
+}
+
 
 .imagest{
   color: #184AFF;
@@ -312,9 +320,22 @@ summary{
 
 /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
 
-@media (max-width: 339px) {
+@media (max-width: 440px) {
 
   /* your overriding css properties here */
+
+  #neonsigngrey{
+    margin-top: 3.1vw;
+    width: 100%;
+    display: none;
+  }
+  
+  #neonsigngrey3{
+    margin-top: 3.1vw;
+    width: 100%;
+    display: block;
+  }
+
 
 }
 
